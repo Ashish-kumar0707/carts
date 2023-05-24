@@ -54,10 +54,10 @@ const Cart = () => {
       </main>
 
       <aside>
-        <h2>Subtotal: ${subTotal}</h2>
-        <h2>Shipping: ${shipping}</h2>
-        <h2>Tax: ${tax}</h2>
-        <h2>Total: ${total}</h2>
+        <h2>Subtotal: Rs {subTotal}</h2>
+        <h2>Shipping: Rs {shipping}</h2>
+        <h2>Tax: Rs {tax}</h2>
+        <h2>Total: Rs {total}</h2>
       </aside>
     </div>
   );
@@ -77,7 +77,7 @@ const CartItem = ({
     <img src={imgSrc} alt="Item" />
     <article>
       <h3>{name}</h3>
-      <p>${price}</p>
+      <p>Rs {price}</p>
     </article>
 
     <div>

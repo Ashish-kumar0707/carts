@@ -12,13 +12,14 @@
       display: none;
     }
     > h1 {
-      color: $tertiary;
+      color: #b07070;;
       font: 100 2rem "Roboto";
     }
   }
 
   > aside {
     border-radius: 100px 0 0 100px;
+    // border: 1px solid black;
     background-color: $primary;
     color: $tertiary;
     height: 100%;
@@ -37,12 +38,18 @@
       }
     }
   }
+
+  >h1{
+    color: $primary;
+  }
 }
 
 .cartItem {
   background-color: $tertiary;
   width: 100%;
   border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 1px;
   margin: 2rem 0;
   padding: 1rem;
   display: grid;
@@ -79,13 +86,14 @@
   }
 
   > svg {
+    color: $primary;
     cursor: pointer;
     font-size: 1.5rem;
     display: inline-block;
     margin: auto;
 
     &:hover {
-      color: $secondary;
+      color: $primarydark;
     }
   }
 }

@@ -6,6 +6,7 @@
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   box-sizing: border-box;
+
 }
 
 @import "colors";
@@ -15,5 +16,5 @@
 @import "mediaquery";
 
 body {
-  background-color: $primary;
+  background-color: $wht;
 }
